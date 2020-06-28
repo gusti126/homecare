@@ -1,0 +1,52 @@
+.atas .active{
+	font-weight: bold;
+	color: #228329;
+}
+.breadcrumb{
+	margin: 2px;
+	background-color: white;
+}
+.breadcrumb .active{
+	font-weight: bold;
+}
+.breadcrumb a{
+	color: #228329;
+}
+.hero img{
+	height: 400px;
+}
+
+.jumbotron {
+	background-color: #fbffff;
+}
+
+.hero .teks{
+	margin-top: 0px;
+	color: #1c1157;
+}
+.hero span{
+	color: #228329;
+
+}
+.about .parag{
+	margin-top: 20px;
+}
+.about span{
+	font-weight: bold;
+	color: #228329;
+	font-size: 17px;
+}
+
+.footer{
+	border-top: 1px solid #ddd; 
+	padding: 30px;
+}
+
+/*Phone view*/
+@media (min-width: 576px) { 
+	.hero .teks{
+	margin-top: 50px;
+}
+
+
+}
