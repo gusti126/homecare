@@ -1,0 +1,62 @@
+.populer img {
+	border-radius: 25px;
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+	object-position: 70% 30%;
+}
+.populer h4{
+	margin-bottom: 8px;
+}
+.populer h6 {
+	padding-left: 5px;
+	margin-top: 5px;
+	font-size: 19px;
+	color: #2b2a2c;
+}
+.populer p {
+	padding-left: 5px;
+	margin-top: -5px;
+	font-size: 14px;
+	color: #5d5c60;
+}
+
+
+.service img{
+	max-height: 300px;
+	object-fit: cover;
+}
+.service .card {
+	padding: 0;
+	margin-left: 30px;
+	box-shadow: 2px 2px #888888;
+	width: 200px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+.service .card-body{
+	padding: 10px;
+}
+.service h6{
+	font-size: 14px;
+	font-weight: bold;
+	color: #352a6f;
+}
+.service p{
+	color: #5d5c60;
+	font-size: 13px;
+}
+.footer{
+	border-top: 1px solid #ddd; 
+	padding: 30px;
+	margin-top: 90px;
+}
+@media (min-width: 992px) { 
+	.service .card {
+	margin-left: 30px;
+	box-shadow: 2px 2px #888888;
+	width: 200px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+}

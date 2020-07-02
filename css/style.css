@@ -1,28 +1,27 @@
+
+
 .jumbotron {
 	height: 270px;
 	background-size: cover;
 	border-radius: 20px;
-	padding: 20px 20px;
+	padding: 10px 10px;
 	/*padding-bottom: 50px;*/
 	background-position: 50% 50%;
 	z-index: 1;
 	/*color: green;*/
-	background-image: url(asset/hero.jpg);
+	/*background-image: url(asset/hero.jpg);*/
 }
-.atas {
-	z-index: 2;
-}
+
 .atas .active{
 	font-weight: bold;
 	color: #228329;
 }
 .hero p{
-	text-shadow: 1px 1px #9c9ca2;
-	/*display: none;*/
+	font-size: 12px;
 	font-weight: bold;
 }
 .hero h1{
-	margin: 25px 0;
+	margin: 15px 0;
 	font-size: 30px;
 }
 
@@ -270,6 +269,7 @@
 	/*color: green;*/
 	}
 	.hero p{
+		font-size: 1rem;
 	}
 	.hero h1{
 	margin: 20px 0;
